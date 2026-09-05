@@ -1,0 +1,316 @@
+outer_fold,model,metabolite,standardized_coefficient,constraint
+1,Monotonic,(R)-3-Hydroxybutyric acid,0.006519002238886207,0
+1,Monotonic,acetate,-0.28916990472462817,0
+1,Monotonic,acetoacetate,0.0025225120237568413,0
+1,Monotonic,L-alanine,0.0,1
+1,Monotonic,L-valine,0.31811124247253636,1
+1,Monotonic,hypoxanthine,-0.5135017712187789,0
+1,Monotonic,citrate,0.0009648780009544645,0
+1,Monotonic,creatinine,0.18897353169331857,0
+1,Monotonic,L-glutamine,0.0,-1
+1,Monotonic,glycine,0.0,-1
+1,Monotonic,histidine,0.0,-1
+1,Monotonic,L-allo-Isoleucine,0.1901649059037795,1
+1,Monotonic,isopropanol,0.03886216790587406,0
+1,Monotonic,L-Lactic acid,0.3458621869240105,1
+1,Monotonic,L-leucine,0.2939584782868654,1
+1,Monotonic,lipoproteins,0.0,1
+1,Monotonic,methanol,0.026203031311651782,0
+1,Monotonic,Dimethyl sulfone,-0.2419371507086645,0
+1,Monotonic,D-phenylalanine,0.05894594341699296,1
+1,Monotonic,Pyruvic acid,0.3979100717585962,0
+1,Monotonic,L-tyrosine,0.06834540181671142,1
+1,L2,(R)-3-Hydroxybutyric acid,-0.004997852791345751,0
+1,L2,acetate,-0.07137248843032641,0
+1,L2,acetoacetate,0.006761572857528812,0
+1,L2,L-alanine,0.024046668190791178,0
+1,L2,L-valine,0.10360885955530946,0
+1,L2,hypoxanthine,-0.10078153156466176,0
+1,L2,citrate,-0.009395892321663366,0
+1,L2,creatinine,0.04432885281592103,0
+1,L2,L-glutamine,-0.04245032151690608,0
+1,L2,glycine,0.007955356255280202,0
+1,L2,histidine,0.06564624825598832,0
+1,L2,L-allo-Isoleucine,0.09627619326006451,0
+1,L2,isopropanol,0.019676517014103178,0
+1,L2,L-Lactic acid,0.08242409016214207,0
+1,L2,L-leucine,0.09352563818813646,0
+1,L2,lipoproteins,-0.02099631458533663,0
+1,L2,methanol,0.014964604599875935,0
+1,L2,Dimethyl sulfone,-0.07966358379991455,0
+1,L2,D-phenylalanine,0.06489441095996398,0
+1,L2,Pyruvic acid,0.09618096180903198,0
+1,L2,L-tyrosine,0.05389134191842181,0
+1,Elastic Net,(R)-3-Hydroxybutyric acid,0.0,0
+1,Elastic Net,acetate,-0.11105933093737505,0
+1,Elastic Net,acetoacetate,0.0,0
+1,Elastic Net,L-alanine,0.0,0
+1,Elastic Net,L-valine,0.3135766862201812,0
+1,Elastic Net,hypoxanthine,-0.32919264731627546,0
+1,Elastic Net,citrate,0.0,0
+1,Elastic Net,creatinine,0.0,0
+1,Elastic Net,L-glutamine,0.0,0
+1,Elastic Net,glycine,0.0,0
+1,Elastic Net,histidine,0.11209103872267746,0
+1,Elastic Net,L-allo-Isoleucine,0.12954273291688057,0
+1,Elastic Net,isopropanol,0.0,0
+1,Elastic Net,L-Lactic acid,0.21120998104044084,0
+1,Elastic Net,L-leucine,0.1839112583045041,0
+1,Elastic Net,lipoproteins,0.0,0
+1,Elastic Net,methanol,0.0,0
+1,Elastic Net,Dimethyl sulfone,-0.11970611446969562,0
+1,Elastic Net,D-phenylalanine,0.0,0
+1,Elastic Net,Pyruvic acid,0.2836723768841165,0
+1,Elastic Net,L-tyrosine,0.0,0
+2,Monotonic,(R)-3-Hydroxybutyric acid,-0.008604612812405397,0
+2,Monotonic,acetate,-0.005550153728398497,0
+2,Monotonic,acetoacetate,-0.005371989792375543,0
+2,Monotonic,L-alanine,0.01207275354606421,1
+2,Monotonic,L-valine,0.019929465627678306,1
+2,Monotonic,hypoxanthine,-0.003673009395324755,0
+2,Monotonic,citrate,-0.009792058940832658,0
+2,Monotonic,creatinine,0.0031100359016637182,0
+2,Monotonic,L-glutamine,-0.007163278573914596,-1
+2,Monotonic,glycine,-0.009127450972032576,-1
+2,Monotonic,histidine,0.0,-1
+2,Monotonic,L-allo-Isoleucine,0.022173674883102547,1
+2,Monotonic,isopropanol,0.005159395864684511,0
+2,Monotonic,L-Lactic acid,0.01840212742249593,1
+2,Monotonic,L-leucine,0.018168883135751462,1
+2,Monotonic,lipoproteins,0.0022571511906072615,1
+2,Monotonic,methanol,-0.00026679276624911474,0
+2,Monotonic,Dimethyl sulfone,-0.005621797412986179,0
+2,Monotonic,D-phenylalanine,0.01601795095401515,1
+2,Monotonic,Pyruvic acid,0.013070078755256405,0
+2,Monotonic,L-tyrosine,0.01650663215922981,1
+2,L2,(R)-3-Hydroxybutyric acid,-0.008606784153340432,0
+2,L2,acetate,-0.005554198539802034,0
+2,L2,acetoacetate,-0.005374044195370616,0
+2,L2,L-alanine,0.01207024361836096,0
+2,L2,L-valine,0.019924646795075194,0
+2,L2,hypoxanthine,-0.003672313650694376,0
+2,L2,citrate,-0.009793396213668148,0
+2,L2,creatinine,0.0031094791699975157,0
+2,L2,L-glutamine,-0.007165720815018623,0
+2,L2,glycine,-0.009131621980128532,0
+2,L2,histidine,0.0008763337215190644,0
+2,L2,L-allo-Isoleucine,0.02216962003129183,0
+2,L2,isopropanol,0.005158985922026226,0
+2,L2,L-Lactic acid,0.018397767061319306,0
+2,L2,L-leucine,0.018163703934690245,0
+2,L2,lipoproteins,0.0022573856993676903,0
+2,L2,methanol,-0.00026931764198991683,0
+2,L2,Dimethyl sulfone,-0.005612784496547203,0
+2,L2,D-phenylalanine,0.01601208659656586,0
+2,L2,Pyruvic acid,0.013070109640272803,0
+2,L2,L-tyrosine,0.016505477344787592,0
+2,Elastic Net,(R)-3-Hydroxybutyric acid,0.0,0
+2,Elastic Net,acetate,0.0,0
+2,Elastic Net,acetoacetate,0.0,0
+2,Elastic Net,L-alanine,0.0,0
+2,Elastic Net,L-valine,0.06880255127201665,0
+2,Elastic Net,hypoxanthine,0.0,0
+2,Elastic Net,citrate,-0.00015020693190576185,0
+2,Elastic Net,creatinine,0.0,0
+2,Elastic Net,L-glutamine,0.0,0
+2,Elastic Net,glycine,0.0,0
+2,Elastic Net,histidine,0.0,0
+2,Elastic Net,L-allo-Isoleucine,0.09080552125223848,0
+2,Elastic Net,isopropanol,0.0,0
+2,Elastic Net,L-Lactic acid,0.05813098961044452,0
+2,Elastic Net,L-leucine,0.048093047762001725,0
+2,Elastic Net,lipoproteins,0.0,0
+2,Elastic Net,methanol,0.0,0
+2,Elastic Net,Dimethyl sulfone,0.0,0
+2,Elastic Net,D-phenylalanine,0.0294398214209531,0
+2,Elastic Net,Pyruvic acid,0.018870434326982197,0
+2,Elastic Net,L-tyrosine,0.040589711134191894,0
+3,Monotonic,(R)-3-Hydroxybutyric acid,-0.004708734426058233,0
+3,Monotonic,acetate,-0.007041497840627376,0
+3,Monotonic,acetoacetate,-0.00320693733808466,0
+3,Monotonic,L-alanine,0.006137650041483991,1
+3,Monotonic,L-valine,0.018209078353441502,1
+3,Monotonic,hypoxanthine,0.0017069009952102182,0
+3,Monotonic,citrate,-0.011179875815636786,0
+3,Monotonic,creatinine,0.0005295097199618827,0
+3,Monotonic,L-glutamine,-0.0014538846514786272,-1
+3,Monotonic,glycine,-0.0037847169079787122,-1
+3,Monotonic,histidine,0.0,-1
+3,Monotonic,L-allo-Isoleucine,0.016703297171184225,1
+3,Monotonic,isopropanol,0.004131493218796551,0
+3,Monotonic,L-Lactic acid,0.010424995884112357,1
+3,Monotonic,L-leucine,0.012266650847690274,1
+3,Monotonic,lipoproteins,0.0,1
+3,Monotonic,methanol,0.0007564731257568038,0
+3,Monotonic,Dimethyl sulfone,-0.002790725566535616,0
+3,Monotonic,D-phenylalanine,0.009106009395080602,1
+3,Monotonic,Pyruvic acid,0.009051026971528991,0
+3,Monotonic,L-tyrosine,0.01401702082117715,1
+3,L2,(R)-3-Hydroxybutyric acid,-0.004712050627198926,0
+3,L2,acetate,-0.007051066962413839,0
+3,L2,acetoacetate,-0.003208329058012897,0
+3,L2,L-alanine,0.006087742589931426,0
+3,L2,L-valine,0.018134758294636823,0
+3,L2,hypoxanthine,0.0017034886463866143,0
+3,L2,citrate,-0.011201348021407674,0
+3,L2,creatinine,0.000526657446841567,0
+3,L2,L-glutamine,-0.0014842107251691287,0
+3,L2,glycine,-0.003835855523935986,0
+3,L2,histidine,0.008855635889275012,0
+3,L2,L-allo-Isoleucine,0.016646809102731093,0
+3,L2,isopropanol,0.004132363710618986,0
+3,L2,L-Lactic acid,0.01037641088894403,0
+3,L2,L-leucine,0.012209606372527618,0
+3,L2,lipoproteins,-0.0015348761057131465,0
+3,L2,methanol,0.0007405581209410121,0
+3,L2,Dimethyl sulfone,-0.002721075967323029,0
+3,L2,D-phenylalanine,0.009031559517048378,0
+3,L2,Pyruvic acid,0.009063670232772998,0
+3,L2,L-tyrosine,0.013972811435630028,0
+3,Elastic Net,(R)-3-Hydroxybutyric acid,0.0,0
+3,Elastic Net,acetate,0.0,0
+3,Elastic Net,acetoacetate,0.0,0
+3,Elastic Net,L-alanine,0.0,0
+3,Elastic Net,L-valine,0.07377549356683921,0
+3,Elastic Net,hypoxanthine,0.0,0
+3,Elastic Net,citrate,-0.01110881957919072,0
+3,Elastic Net,creatinine,0.0,0
+3,Elastic Net,L-glutamine,0.0,0
+3,Elastic Net,glycine,0.0,0
+3,Elastic Net,histidine,0.0,0
+3,Elastic Net,L-allo-Isoleucine,0.05741176778971672,0
+3,Elastic Net,isopropanol,0.0,0
+3,Elastic Net,L-Lactic acid,0.0010903766198764758,0
+3,Elastic Net,L-leucine,0.009774259645373123,0
+3,Elastic Net,lipoproteins,0.0,0
+3,Elastic Net,methanol,0.0,0
+3,Elastic Net,Dimethyl sulfone,0.0,0
+3,Elastic Net,D-phenylalanine,0.0,0
+3,Elastic Net,Pyruvic acid,0.0,0
+3,Elastic Net,L-tyrosine,0.031038764448284448,0
+4,Monotonic,(R)-3-Hydroxybutyric acid,-0.04437696197793268,0
+4,Monotonic,acetate,-0.042314068936561436,0
+4,Monotonic,acetoacetate,-0.07382392034624277,0
+4,Monotonic,L-alanine,0.006572599690660389,1
+4,Monotonic,L-valine,0.10889212067796798,1
+4,Monotonic,hypoxanthine,-0.03296259950569575,0
+4,Monotonic,citrate,-0.03046995649199922,0
+4,Monotonic,creatinine,0.016223356713818776,0
+4,Monotonic,L-glutamine,-0.03631927528212055,-1
+4,Monotonic,glycine,-0.0038236427779448443,-1
+4,Monotonic,histidine,-0.005083514049012805,-1
+4,Monotonic,L-allo-Isoleucine,0.06014322877811089,1
+4,Monotonic,isopropanol,0.022503562983321117,0
+4,Monotonic,L-Lactic acid,0.08094337043302413,1
+4,Monotonic,L-leucine,0.043798103411452946,1
+4,Monotonic,lipoproteins,0.0,1
+4,Monotonic,methanol,-0.015404025629477095,0
+4,Monotonic,Dimethyl sulfone,0.03652072842194528,0
+4,Monotonic,D-phenylalanine,0.06270395491244665,1
+4,Monotonic,Pyruvic acid,0.07024305856512116,0
+4,Monotonic,L-tyrosine,0.06045699709254928,1
+4,L2,(R)-3-Hydroxybutyric acid,-0.045523973124534226,0
+4,L2,acetate,-0.04211684038786991,0
+4,L2,acetoacetate,-0.0735581123506166,0
+4,L2,L-alanine,0.008196394424031835,0
+4,L2,L-valine,0.10669128739432893,0
+4,L2,hypoxanthine,-0.03430795169950833,0
+4,L2,citrate,-0.03033744965749123,0
+4,L2,creatinine,0.015693288212862713,0
+4,L2,L-glutamine,-0.037280465956324664,0
+4,L2,glycine,-0.003102392597447428,0
+4,L2,histidine,-0.0060730764860901,0
+4,L2,L-allo-Isoleucine,0.06357062936808892,0
+4,L2,isopropanol,0.024267938160322765,0
+4,L2,L-Lactic acid,0.07724477213083047,0
+4,L2,L-leucine,0.047109734927748344,0
+4,L2,lipoproteins,-0.051309855424406116,0
+4,L2,methanol,-0.01675104434741047,0
+4,L2,Dimethyl sulfone,0.03751733689380845,0
+4,L2,D-phenylalanine,0.06372124470347906,0
+4,L2,Pyruvic acid,0.07097283505683669,0
+4,L2,L-tyrosine,0.06017297642087717,0
+4,Elastic Net,(R)-3-Hydroxybutyric acid,0.0,0
+4,Elastic Net,acetate,0.0,0
+4,Elastic Net,acetoacetate,-0.11739535653150217,0
+4,Elastic Net,L-alanine,0.0,0
+4,Elastic Net,L-valine,0.3290766059364368,0
+4,Elastic Net,hypoxanthine,0.0,0
+4,Elastic Net,citrate,0.0,0
+4,Elastic Net,creatinine,0.0,0
+4,Elastic Net,L-glutamine,0.0,0
+4,Elastic Net,glycine,0.0,0
+4,Elastic Net,histidine,0.0,0
+4,Elastic Net,L-allo-Isoleucine,0.0,0
+4,Elastic Net,isopropanol,0.0,0
+4,Elastic Net,L-Lactic acid,0.0,0
+4,Elastic Net,L-leucine,0.0,0
+4,Elastic Net,lipoproteins,0.0,0
+4,Elastic Net,methanol,0.0,0
+4,Elastic Net,Dimethyl sulfone,0.0,0
+4,Elastic Net,D-phenylalanine,0.0,0
+4,Elastic Net,Pyruvic acid,0.0651117277008389,0
+4,Elastic Net,L-tyrosine,0.0,0
+5,Monotonic,(R)-3-Hydroxybutyric acid,-0.007880838978876007,0
+5,Monotonic,acetate,-0.005285245737689287,0
+5,Monotonic,acetoacetate,-0.0028427672563084106,0
+5,Monotonic,L-alanine,0.010234682645985855,1
+5,Monotonic,L-valine,0.018154648130434325,1
+5,Monotonic,hypoxanthine,0.0004992058543598172,0
+5,Monotonic,citrate,-0.008594802805186154,0
+5,Monotonic,creatinine,0.007359803990946851,0
+5,Monotonic,L-glutamine,-0.01077775361948827,-1
+5,Monotonic,glycine,-0.0021445761748720704,-1
+5,Monotonic,histidine,0.0,-1
+5,Monotonic,L-allo-Isoleucine,0.01822714355549368,1
+5,Monotonic,isopropanol,0.010180294405720736,0
+5,Monotonic,L-Lactic acid,0.014175703597030949,1
+5,Monotonic,L-leucine,0.01157782623200545,1
+5,Monotonic,lipoproteins,0.0017649116671432984,1
+5,Monotonic,methanol,0.005811231791293395,0
+5,Monotonic,Dimethyl sulfone,-0.004739533206542161,0
+5,Monotonic,D-phenylalanine,0.01799855417650108,1
+5,Monotonic,Pyruvic acid,0.014759540087627629,0
+5,Monotonic,L-tyrosine,0.016476255487819932,1
+5,L2,(R)-3-Hydroxybutyric acid,-0.007877440598408994,0
+5,L2,acetate,-0.00531293970693575,0
+5,L2,acetoacetate,-0.0028472287087676035,0
+5,L2,L-alanine,0.010207190425463216,0
+5,L2,L-valine,0.018116551514055383,0
+5,L2,hypoxanthine,0.0005154300197284433,0
+5,L2,citrate,-0.008611163126769844,0
+5,L2,creatinine,0.00735143735392608,0
+5,L2,L-glutamine,-0.01082281629350541,0
+5,L2,glycine,-0.002199138159929483,0
+5,L2,histidine,0.007901724182150866,0
+5,L2,L-allo-Isoleucine,0.01819335061893451,0
+5,L2,isopropanol,0.010168827321125335,0
+5,L2,L-Lactic acid,0.01415061659794245,0
+5,L2,L-leucine,0.011527232284958992,0
+5,L2,lipoproteins,0.001768674989632566,0
+5,L2,methanol,0.0057948451928534475,0
+5,L2,Dimethyl sulfone,-0.004688666008170865,0
+5,L2,D-phenylalanine,0.017942637763881338,0
+5,L2,Pyruvic acid,0.014766795090818926,0
+5,L2,L-tyrosine,0.016452183595651208,0
+5,Elastic Net,(R)-3-Hydroxybutyric acid,-0.07934742046079295,0
+5,Elastic Net,acetate,-0.12734586525452773,0
+5,Elastic Net,acetoacetate,0.0,0
+5,Elastic Net,L-alanine,-0.04050180944736661,0
+5,Elastic Net,L-valine,0.2705135054162308,0
+5,Elastic Net,hypoxanthine,-0.0019095013906083025,0
+5,Elastic Net,citrate,-0.17120652804674227,0
+5,Elastic Net,creatinine,0.2729118928671516,0
+5,Elastic Net,L-glutamine,-0.3306761062654909,0
+5,Elastic Net,glycine,0.0,0
+5,Elastic Net,histidine,0.1723003240038785,0
+5,Elastic Net,L-allo-Isoleucine,0.2714952454925961,0
+5,Elastic Net,isopropanol,0.14591505739401184,0
+5,Elastic Net,L-Lactic acid,0.2847882861633654,0
+5,Elastic Net,L-leucine,0.0,0
+5,Elastic Net,lipoproteins,0.0,0
+5,Elastic Net,methanol,0.08642655265545222,0
+5,Elastic Net,Dimethyl sulfone,0.08076594051068645,0
+5,Elastic Net,D-phenylalanine,0.141429551372763,0
+5,Elastic Net,Pyruvic acid,0.30159240892503897,0
+5,Elastic Net,L-tyrosine,0.30119962653369137,0
