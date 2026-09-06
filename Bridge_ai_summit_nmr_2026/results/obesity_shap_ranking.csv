@@ -1,0 +1,22 @@
+metabolite,mean_abs_shap
+Dimethyl sulfone,1.4277874
+isopropanol,1.3020598
+methanol,0.6524847
+L-valine,0.60958403
+lipoproteins,0.43636402
+L-tyrosine,0.35627207
+glycine,0.30676085
+Pyruvic acid,0.2627132
+L-Lactic acid,0.18641847
+hypoxanthine,0.1804654
+histidine,0.17760399
+citrate,0.1452759
+creatinine,0.14427674
+acetoacetate,0.12617803
+acetate,0.092703804
+D-phenylalanine,0.08426415
+L-glutamine,0.057319295
+(R)-3-Hydroxybutyric acid,0.040251542
+L-leucine,0.035413515
+L-allo-Isoleucine,0.031576727
+L-alanine,0.012159142

@@ -1,0 +1,206 @@
+{
+  "seed": 42,
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "n_subjects": 71,
+  "n_positive": 31,
+  "n_features": 21,
+  "target": "at least 9 of 11 specified markers improve at 12 months",
+  "metric": "average precision (step integral, tie-aware)",
+  "primary": "mean outer-fold AP",
+  "grid": {
+    "Monotonic": [
+      {
+        "lambda": 0.001
+      },
+      {
+        "lambda": 0.01
+      },
+      {
+        "lambda": 0.1
+      },
+      {
+        "lambda": 1.0
+      },
+      {
+        "lambda": 10.0
+      }
+    ],
+    "L2": [
+      {
+        "lambda": 0.001
+      },
+      {
+        "lambda": 0.01
+      },
+      {
+        "lambda": 0.1
+      },
+      {
+        "lambda": 1.0
+      },
+      {
+        "lambda": 10.0
+      }
+    ],
+    "Elastic Net": [
+      {
+        "lambda": 0.001,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 0.001,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 0.001,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 0.01,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 0.01,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 0.01,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 0.1,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 0.1,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 0.1,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 1.0,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 1.0,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 1.0,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 10.0,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 10.0,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 10.0,
+        "l1_ratio": 0.9
+      }
+    ],
+    "SVM": [
+      {
+        "C": 0.01,
+        "gamma": "scale"
+      },
+      {
+        "C": 0.01,
+        "gamma": 0.01
+      },
+      {
+        "C": 0.01,
+        "gamma": 0.1
+      },
+      {
+        "C": 0.1,
+        "gamma": "scale"
+      },
+      {
+        "C": 0.1,
+        "gamma": 0.01
+      },
+      {
+        "C": 0.1,
+        "gamma": 0.1
+      },
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 1.0,
+        "gamma": 0.01
+      },
+      {
+        "C": 1.0,
+        "gamma": 0.1
+      },
+      {
+        "C": 10.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.01
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.1
+      },
+      {
+        "C": 100.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 100.0,
+        "gamma": 0.01
+      },
+      {
+        "C": 100.0,
+        "gamma": 0.1
+      }
+    ]
+  },
+  "feature_selection": "Elastic Net embedded shrinkage only, inside inner training fits; all 21 fixed features otherwise",
+  "constraints": {
+    "L-valine": 1,
+    "L-leucine": 1,
+    "L-allo-Isoleucine": 1,
+    "L-tyrosine": 1,
+    "D-phenylalanine": 1,
+    "L-alanine": 1,
+    "lipoproteins": 1,
+    "L-Lactic acid": 1,
+    "glycine": -1,
+    "L-glutamine": -1,
+    "histidine": -1
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0",
+    "matplotlib": "3.11.1"
+  },
+  "sha256": {
+    "s_MTBLS242.txt": "cc5f6a4e597cac3cc1d94762c4b7c4c136384defb3715eef7849243aa8c6d630",
+    "m_MTBLS242_v2_maf.tsv": "4e1b086070f67fa67f05ee3a25d55c33f6509d2a50078f2c594c16db938ccf89"
+  },
+  "checks": {
+    "legacy_target_identical": true,
+    "unique_subjects": true,
+    "one_outer_prediction_each": true,
+    "no_missing_raw_values": true,
+    "all_monotonic_fits_sign_valid": true,
+    "all_solvers_converged": true
+  },
+  "nested_model_selection_mean_ap": 0.5637155437155437
+}

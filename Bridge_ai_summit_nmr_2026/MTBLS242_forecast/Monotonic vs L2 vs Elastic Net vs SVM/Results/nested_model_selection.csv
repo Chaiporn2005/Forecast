@@ -1,0 +1,6 @@
+outer_fold,selected_model,pr_auc_ap
+1,Elastic Net,0.483982683982684
+2,Elastic Net,0.4890572390572391
+3,Elastic Net,0.6912698412698411
+4,Elastic Net,0.6968253968253969
+5,L2,0.4574425574425574

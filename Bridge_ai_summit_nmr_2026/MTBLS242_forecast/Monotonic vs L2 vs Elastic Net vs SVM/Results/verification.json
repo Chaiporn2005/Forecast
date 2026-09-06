@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "outer_assignments_exactly_match_legacy": true,
+  "inner_test_separation_verified": true,
+  "heldout_ap_recomputed": true,
+  "inner_selection_recomputed": true,
+  "tie_aware_ap_verified": true,
+  "monotonic_perturbation_checks_passed": true,
+  "l2_max_probability_error_vs_sklearn": 3.0611367163313474e-07,
+  "png_files_valid": true,
+  "inner_training_fits": 1000,
+  "outer_refits": 20
+}

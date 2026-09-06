@@ -1,0 +1,16 @@
+{
+  "task": "forecast strong 12-month metabolic response from preop NMR",
+  "outcome_definition": "at least 9 of 11 literature-directed markers improve",
+  "n_subjects": 71,
+  "n_responders": 31,
+  "prevalence_baseline": 0.43661971830985913,
+  "metric": "PR-AUC calculated as average precision",
+  "evaluation": "nested stratified 5-fold cross-validation; held-out subjects only",
+  "oof_pr_auc": 0.6708356866186068,
+  "mean_fold_pr_auc": 0.6532479425336568,
+  "std_fold_pr_auc": 0.1844015537548853,
+  "monotone_positive": 8,
+  "monotone_negative": 3,
+  "unconstrained": 10,
+  "monotonicity_violations": 0
+}

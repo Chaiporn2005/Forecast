@@ -1,0 +1,11 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# AutoGluon / model temp
+_ag_tmp/
+AutogluonModels/
