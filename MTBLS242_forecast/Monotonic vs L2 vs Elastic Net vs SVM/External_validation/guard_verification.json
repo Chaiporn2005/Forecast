@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "empty provenance rejected",
+    "MTBLS242 rejected as its own external cohort",
+    "overlapping subject IDs rejected"
+  ],
+  "performance_evaluation_performed": false
+}

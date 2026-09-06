@@ -1,0 +1,9 @@
+{
+  "one_prediction_per_subject_repeat_model": true,
+  "finite_scores": true,
+  "all_fits_converged": true,
+  "monotonic_violations": 0,
+  "zero_positive_bootstrap_fold_instances": 340,
+  "outer_refits": 400,
+  "inner_fits": 20000
+}

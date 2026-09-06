@@ -1,5 +1,7 @@
 # Compare Monotonic vs L2 vs Elastic Net vs SVM
 
+**อัปเดต 2026-09-06:** เพิ่ม [Repeated nested CV 20 รอบ พร้อม conditional 95% intervals](Repeated_nested_CV/README.md) และ [การเตรียม external validation](External_validation/README.md) แล้ว ผลใหม่ L2 0.686 และ Monotonic 0.684 ใกล้กันมาก โดยช่วงของผลต่างคร่อมศูนย์ External validation ยังไม่ได้ดำเนินการเพราะยังไม่มีข้อมูลอิสระที่เข้าเกณฑ์ จึงยังไม่สรุปประสิทธิภาพทางคลินิก เนื้อหาด้านล่างคือผลเดิมแบบหนึ่งรอบ
+
 ผลการทดลอง MTBLS242: ใช้ serum NMR ก่อนผ่าตัด 21 ตัวแปร เพื่อพยากรณ์ strong metabolic response ที่ 12 เดือน ในผู้ป่วย 71 คน (responder 31 คน)
 
 ## ผลหลัก
@@ -76,7 +78,7 @@ Target 9/11 เป็นเกณฑ์เพื่อการทดลอง �
 ใช้ Python 3.12 และโครงสร้าง repo เดิม โดยไฟล์ข้อมูลอยู่ใน `MTBLS242_forecast/` และมีผลเดิมใน `outputs_pr_auc/` สำหรับตรวจความตรงกันของ target
 
 ```sh
-cd "MTBLS242_forecast/Compare Monotonic vs L2 vs Elastic Net vs SVM"
+cd "MTBLS242_forecast/Monotonic vs L2 vs Elastic Net vs SVM"
 python -m pip install -r requirements.txt
 python run_comparison.py
 python verify_results.py

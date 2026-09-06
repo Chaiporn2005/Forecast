@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "repeats": 20,
+  "checks": [
+    "weighted AP matches sklearn including ties and zero-positive folds",
+    "outer/inner patient membership reconstructed from seeds",
+    "identical outer test subjects across models",
+    "each patient predicted once per repeat per model",
+    "target matches original",
+    "all held-out AP recomputed",
+    "hyperparameters maximize inner mean AP",
+    "model selection uses inner scores only",
+    "repeat 1 reproduces previous nested-CV results",
+    "CI quantiles recomputed from saved paired bootstrap draws"
+  ],
+  "external_validation": "NOT PERFORMED",
+  "interval_scope": "conditional on fitted CV models, no training refits"
+}

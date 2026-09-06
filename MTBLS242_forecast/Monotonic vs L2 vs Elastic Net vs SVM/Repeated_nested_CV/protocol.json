@@ -1,0 +1,244 @@
+{
+  "repeats": 20,
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "outer_seeds": [
+    42,
+    1042,
+    2042,
+    3042,
+    4042,
+    5042,
+    6042,
+    7042,
+    8042,
+    9042,
+    10042,
+    11042,
+    12042,
+    13042,
+    14042,
+    15042,
+    16042,
+    17042,
+    18042,
+    19042
+  ],
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20260906,
+  "n_subjects": 71,
+  "n_positive": 31,
+  "target": ">=9/11 fixed markers improve at 12 months",
+  "features": [
+    "(R)-3-Hydroxybutyric acid",
+    "acetate",
+    "acetoacetate",
+    "L-alanine",
+    "L-valine",
+    "hypoxanthine",
+    "citrate",
+    "creatinine",
+    "L-glutamine",
+    "glycine",
+    "histidine",
+    "L-allo-Isoleucine",
+    "isopropanol",
+    "L-Lactic acid",
+    "L-leucine",
+    "lipoproteins",
+    "methanol",
+    "Dimethyl sulfone",
+    "D-phenylalanine",
+    "Pyruvic acid",
+    "L-tyrosine"
+  ],
+  "constraints": {
+    "L-valine": 1,
+    "L-leucine": 1,
+    "L-allo-Isoleucine": 1,
+    "L-tyrosine": 1,
+    "D-phenylalanine": 1,
+    "L-alanine": 1,
+    "lipoproteins": 1,
+    "L-Lactic acid": 1,
+    "glycine": -1,
+    "L-glutamine": -1,
+    "histidine": -1
+  },
+  "grid": {
+    "Monotonic": [
+      {
+        "lambda": 0.001
+      },
+      {
+        "lambda": 0.01
+      },
+      {
+        "lambda": 0.1
+      },
+      {
+        "lambda": 1.0
+      },
+      {
+        "lambda": 10.0
+      }
+    ],
+    "L2": [
+      {
+        "lambda": 0.001
+      },
+      {
+        "lambda": 0.01
+      },
+      {
+        "lambda": 0.1
+      },
+      {
+        "lambda": 1.0
+      },
+      {
+        "lambda": 10.0
+      }
+    ],
+    "Elastic Net": [
+      {
+        "lambda": 0.001,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 0.001,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 0.001,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 0.01,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 0.01,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 0.01,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 0.1,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 0.1,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 0.1,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 1.0,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 1.0,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 1.0,
+        "l1_ratio": 0.9
+      },
+      {
+        "lambda": 10.0,
+        "l1_ratio": 0.1
+      },
+      {
+        "lambda": 10.0,
+        "l1_ratio": 0.5
+      },
+      {
+        "lambda": 10.0,
+        "l1_ratio": 0.9
+      }
+    ],
+    "SVM": [
+      {
+        "C": 0.01,
+        "gamma": "scale"
+      },
+      {
+        "C": 0.01,
+        "gamma": 0.01
+      },
+      {
+        "C": 0.01,
+        "gamma": 0.1
+      },
+      {
+        "C": 0.1,
+        "gamma": "scale"
+      },
+      {
+        "C": 0.1,
+        "gamma": 0.01
+      },
+      {
+        "C": 0.1,
+        "gamma": 0.1
+      },
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 1.0,
+        "gamma": 0.01
+      },
+      {
+        "C": 1.0,
+        "gamma": 0.1
+      },
+      {
+        "C": 10.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.01
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.1
+      },
+      {
+        "C": 100.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 100.0,
+        "gamma": 0.01
+      },
+      {
+        "C": 100.0,
+        "gamma": 0.1
+      }
+    ]
+  },
+  "primary_metric": "mean outer-fold average precision across repeats",
+  "ci": "95% percentile paired subject bootstrap of fixed within-fold predictions; conditional, no model refitting",
+  "zero_positive_bootstrap_fold": "AP defined as zero, matching sklearn; retain fixed fold denominator",
+  "external_validation": "NOT PERFORMED: no eligible external subject-level table available",
+  "sha256": {
+    "run_comparison.py": "50b8f9af5bd60a4b87d775e11deee0e6b20e426692688c7de8b9da3139d2e8f2",
+    "run_repeated.py": "f0ad13e7613ab480e254f779cedf4eb56d896474592cca1bf835c4b214088fce",
+    "s_MTBLS242.txt": "cc5f6a4e597cac3cc1d94762c4b7c4c136384defb3715eef7849243aa8c6d630",
+    "m_MTBLS242_v2_maf.tsv": "4e1b086070f67fa67f05ee3a25d55c33f6509d2a50078f2c594c16db938ccf89"
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0"
+  }
+}

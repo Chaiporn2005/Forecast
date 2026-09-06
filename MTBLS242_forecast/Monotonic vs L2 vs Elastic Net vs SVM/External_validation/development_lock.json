@@ -1,0 +1,65 @@
+{
+  "status": "READY_FOR_INDEPENDENT_DATA_NOT_EXTERNALLY_VALIDATED",
+  "development_cohort": "MTBLS242",
+  "sha256": {
+    "run_comparison.py": "50b8f9af5bd60a4b87d775e11deee0e6b20e426692688c7de8b9da3139d2e8f2",
+    "s_MTBLS242.txt": "cc5f6a4e597cac3cc1d94762c4b7c4c136384defb3715eef7849243aa8c6d630",
+    "m_MTBLS242_v2_maf.tsv": "4e1b086070f67fa67f05ee3a25d55c33f6509d2a50078f2c594c16db938ccf89"
+  },
+  "features": [
+    "(R)-3-Hydroxybutyric acid",
+    "acetate",
+    "acetoacetate",
+    "L-alanine",
+    "L-valine",
+    "hypoxanthine",
+    "citrate",
+    "creatinine",
+    "L-glutamine",
+    "glycine",
+    "histidine",
+    "L-allo-Isoleucine",
+    "isopropanol",
+    "L-Lactic acid",
+    "L-leucine",
+    "lipoproteins",
+    "methanol",
+    "Dimethyl sulfone",
+    "D-phenylalanine",
+    "Pyruvic acid",
+    "L-tyrosine"
+  ],
+  "models": {
+    "Monotonic": {
+      "parameters": {
+        "lambda": 10.0
+      },
+      "development_cv_ap": 0.7477258852258852
+    },
+    "L2": {
+      "parameters": {
+        "lambda": 1.0
+      },
+      "development_cv_ap": 0.7504315129315129
+    },
+    "Elastic Net": {
+      "parameters": {
+        "lambda": 0.1,
+        "l1_ratio": 0.5
+      },
+      "development_cv_ap": 0.7361239686239686
+    },
+    "SVM": {
+      "parameters": {
+        "C": 1.0,
+        "gamma": 0.01
+      },
+      "development_cv_ap": 0.7167640692640692
+    }
+  },
+  "primary_model": "L2",
+  "selection": "fixed development-only stratified 5-fold seed 90210; refit on all 71 development patients",
+  "target": ">=9 of 11 prespecified markers improve at 12 months",
+  "n_subjects": 71,
+  "sklearn_version": "1.9.0"
+}
