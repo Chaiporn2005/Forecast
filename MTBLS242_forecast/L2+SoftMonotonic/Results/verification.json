@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "repeats": 20,
+  "checks": [
+    "patient split membership",
+    "same outer patients across models",
+    "one prediction per patient/repeat/model",
+    "held-out AP recomputed",
+    "inner candidate winner recomputed",
+    "bootstrap intervals recomputed"
+  ],
+  "external_validation": "NOT PERFORMED",
+  "interval_scope": "conditional on fitted CV models"
+}

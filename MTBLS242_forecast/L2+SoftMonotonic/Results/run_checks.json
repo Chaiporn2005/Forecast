@@ -1,0 +1,9 @@
+{
+  "one_prediction_per_subject_repeat_model": true,
+  "expected_predictions": true,
+  "all_scores_finite": true,
+  "all_fits_converged": true,
+  "soft_monotonic_violation_count": 228,
+  "inner_fit_count": 20000,
+  "external_validation": "NOT PERFORMED"
+}

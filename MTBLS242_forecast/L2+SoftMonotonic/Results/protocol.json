@@ -1,0 +1,244 @@
+{
+  "repeats": 20,
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "outer_seeds": [
+    42,
+    1042,
+    2042,
+    3042,
+    4042,
+    5042,
+    6042,
+    7042,
+    8042,
+    9042,
+    10042,
+    11042,
+    12042,
+    13042,
+    14042,
+    15042,
+    16042,
+    17042,
+    18042,
+    19042
+  ],
+  "bootstrap_draws_requested": 2000,
+  "bootstrap_draws_valid": 2000,
+  "bootstrap_seed": 20260906,
+  "n_subjects": 71,
+  "n_responders": 31,
+  "features": [
+    "(R)-3-Hydroxybutyric acid",
+    "acetate",
+    "acetoacetate",
+    "L-alanine",
+    "L-valine",
+    "hypoxanthine",
+    "citrate",
+    "creatinine",
+    "L-glutamine",
+    "glycine",
+    "histidine",
+    "L-allo-Isoleucine",
+    "isopropanol",
+    "L-Lactic acid",
+    "L-leucine",
+    "lipoproteins",
+    "methanol",
+    "Dimethyl sulfone",
+    "D-phenylalanine",
+    "Pyruvic acid",
+    "L-tyrosine"
+  ],
+  "constraints": {
+    "L-valine": 1,
+    "L-leucine": 1,
+    "L-allo-Isoleucine": 1,
+    "L-tyrosine": 1,
+    "D-phenylalanine": 1,
+    "L-alanine": 1,
+    "lipoproteins": 1,
+    "L-Lactic acid": 1,
+    "glycine": -1,
+    "L-glutamine": -1,
+    "histidine": -1
+  },
+  "grids": {
+    "Soft Monotonic + L2": [
+      {
+        "l2": 0.001,
+        "soft_penalty": 0.0
+      },
+      {
+        "l2": 0.001,
+        "soft_penalty": 0.001
+      },
+      {
+        "l2": 0.001,
+        "soft_penalty": 0.01
+      },
+      {
+        "l2": 0.001,
+        "soft_penalty": 0.1
+      },
+      {
+        "l2": 0.001,
+        "soft_penalty": 1.0
+      },
+      {
+        "l2": 0.001,
+        "soft_penalty": 10.0
+      },
+      {
+        "l2": 0.01,
+        "soft_penalty": 0.0
+      },
+      {
+        "l2": 0.01,
+        "soft_penalty": 0.001
+      },
+      {
+        "l2": 0.01,
+        "soft_penalty": 0.01
+      },
+      {
+        "l2": 0.01,
+        "soft_penalty": 0.1
+      },
+      {
+        "l2": 0.01,
+        "soft_penalty": 1.0
+      },
+      {
+        "l2": 0.01,
+        "soft_penalty": 10.0
+      },
+      {
+        "l2": 0.1,
+        "soft_penalty": 0.0
+      },
+      {
+        "l2": 0.1,
+        "soft_penalty": 0.001
+      },
+      {
+        "l2": 0.1,
+        "soft_penalty": 0.01
+      },
+      {
+        "l2": 0.1,
+        "soft_penalty": 0.1
+      },
+      {
+        "l2": 0.1,
+        "soft_penalty": 1.0
+      },
+      {
+        "l2": 0.1,
+        "soft_penalty": 10.0
+      },
+      {
+        "l2": 1.0,
+        "soft_penalty": 0.0
+      },
+      {
+        "l2": 1.0,
+        "soft_penalty": 0.001
+      },
+      {
+        "l2": 1.0,
+        "soft_penalty": 0.01
+      },
+      {
+        "l2": 1.0,
+        "soft_penalty": 0.1
+      },
+      {
+        "l2": 1.0,
+        "soft_penalty": 1.0
+      },
+      {
+        "l2": 1.0,
+        "soft_penalty": 10.0
+      },
+      {
+        "l2": 10.0,
+        "soft_penalty": 0.0
+      },
+      {
+        "l2": 10.0,
+        "soft_penalty": 0.001
+      },
+      {
+        "l2": 10.0,
+        "soft_penalty": 0.01
+      },
+      {
+        "l2": 10.0,
+        "soft_penalty": 0.1
+      },
+      {
+        "l2": 10.0,
+        "soft_penalty": 1.0
+      },
+      {
+        "l2": 10.0,
+        "soft_penalty": 10.0
+      }
+    ],
+    "Monotonic + L2": [
+      {
+        "l2": 0.001
+      },
+      {
+        "l2": 0.01
+      },
+      {
+        "l2": 0.1
+      },
+      {
+        "l2": 1.0
+      },
+      {
+        "l2": 10.0
+      }
+    ],
+    "L2": [
+      {
+        "l2": 0.001
+      },
+      {
+        "l2": 0.01
+      },
+      {
+        "l2": 0.1
+      },
+      {
+        "l2": 1.0
+      },
+      {
+        "l2": 10.0
+      }
+    ]
+  },
+  "metric": "average precision (step integral, tie-aware)",
+  "soft_objective": "mean logistic loss + l2/2*sum(w^2) + soft_penalty/2*sum(max(0,-direction*w)^2)",
+  "interval": "95% percentile paired subject bootstrap of fixed held-out predictions; conditional on fitted models",
+  "external_validation": "not performed; no eligible independent cohort supplied",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0"
+  },
+  "source_hashes": {
+    "run_comparison.py": "50b8f9af5bd60a4b87d775e11deee0e6b20e426692688c7de8b9da3139d2e8f2",
+    "run_soft_monotonic.py": "091c877accab9d6fd52ab5c355ec97e451edca9f21cf3b92ee8e1a533715b374",
+    "verify_results.py": "34880f7e6d022fba461bba2445428163a62c5d8d4da7b25ba176454381f320be",
+    "s_MTBLS242.txt": "cc5f6a4e597cac3cc1d94762c4b7c4c136384defb3715eef7849243aa8c6d630",
+    "m_MTBLS242_v2_maf.tsv": "4e1b086070f67fa67f05ee3a25d55c33f6509d2a50078f2c594c16db938ccf89"
+  }
+}
